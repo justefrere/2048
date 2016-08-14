@@ -1,1 +1,1 @@
-Made just for fun. [Play it here!](http://amschrader.github.io/2048/)
+Made just for fun. [Play it here!](http://justefrere.github.io/2048/)
