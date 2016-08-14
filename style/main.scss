@@ -329,7 +329,7 @@ hr {
 
   $base: 2;
   $exponent: 1;
-  $limit: 15;
+  $limit: 11;
 
   // Colors for all 11 states, false = no special color
   $special-colors: #eee4da false, // 2
@@ -348,21 +348,17 @@ hr {
                    #444 true, //16384
                    #444 true; //32768
 
-   $tile-pokemon:  url('../im/weedle.png'), // 2
-                   url('../im/pidgey.png'), // 4
-                   url('../im/zubat.png'), // 8
-                   url('../im/magikarp.png'), // 16
-                   url('../im/psyduck.png'), // 32
-                   url('../im/ninetales.png'), // 64
-                   url('../im/snorlax.png'), // 128
-                   url('../im/pikachu.png'), // 256
-                   url('../im/venasaur.png'), // 512
-                   url('../im/blastoise.png'), // 1024
-                   url('../im/charizard.png'), // 2048
-                   url('../im/mega-evolution.png'), // 4096
-                   url('../im/articuno.png'), //8192
-                   url('../im/zapados.png'), //16384
-                   url('../im/moltres.png'); //32768
+   $tile-family:  url('../im/evie.jpg'), // 2
+                   url('../im/thomas.jpg'), // 4
+                   url('../im/cloe.jpg'), // 8
+                   url('../im/graeme.jpg'), // 16
+                   url('../im/jenny.jpg'), // 32
+                   url('../im/lee.jpg'), // 64
+                   url('../im/becci.jpg'), // 128
+                   url('../im/alan.jpg'), // 256
+                   url('../im/cath.jpg'), // 512
+                   url('../im/roy.jpg'), // 1024
+                   url('../im/denise.jpg'); // 2048
 
   // Build tile colors
   @while $exponent <= $limit {
@@ -379,7 +375,7 @@ hr {
 
       // Set background
       background: $tile-color;
-      background-image: nth($tile-pokemon, $exponent);
+      background-image: nth($tile-family, $exponent);
       background-size: 80% 80%;
       background-repeat: no-repeat;
       background-position: center;
