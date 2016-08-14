@@ -349,16 +349,16 @@ hr {
                    #444 true; //32768
 
    $tile-family:  url('../im/evie.png'), // 2
-                   url('../im/thomas.jpg'), // 4
-                   url('../im/cloe.jpg'), // 8
-                   url('../im/graeme.jpg'), // 16
-                   url('../im/jenny.jpg'), // 32
-                   url('../im/lee.jpg'), // 64
-                   url('../im/becci.jpg'), // 128
-                   url('../im/alan.jpg'), // 256
-                   url('../im/cath.jpg'), // 512
-                   url('../im/roy.jpg'), // 1024
-                   url('../im/denise.jpg'); // 2048
+                   url('../im/thomas.png'), // 4
+                   url('../im/cloe.png'), // 8
+                   url('../im/graeme.png'), // 16
+                   url('../im/jenny.png'), // 32
+                   url('../im/lee.png'), // 64
+                   url('../im/becci.png'), // 128
+                   url('../im/alan.png'), // 256
+                   url('../im/cath.png'), // 512
+                   url('../im/roy.png'), // 1024
+                   url('../im/denise.png'); // 2048
 
   // Build tile colors
   @while $exponent <= $limit {
